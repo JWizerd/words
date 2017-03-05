@@ -129,6 +129,11 @@ a.home:hover {
   @extend .space-between-center-items;
 }
 
+.published {
+  color: #666;
+  font-size: 13px;
+}
+
 .post-details h1 {
   font-size: 1.5em;
 }
