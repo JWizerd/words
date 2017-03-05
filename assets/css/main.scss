@@ -86,6 +86,7 @@ header h1, header h2 {
 
 a, a:visited, a:active {
   color: $apple;
+  text-decoration: none;
 }
 
 a, a.home {
