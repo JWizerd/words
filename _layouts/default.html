@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+</head>
+<body class="container">
+  {% include header.html %}
+  <section class="row">
+    <main class="col-sm-8 col-sm-offset-2">
+      <hr>
+      {{content}}
+    </main>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/javascripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/javascripts/main.js"></script>
+  </section>
+</body>
+</html>
