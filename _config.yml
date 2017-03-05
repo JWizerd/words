@@ -17,7 +17,7 @@ title: Words by Jeremiah
 email: jeremiah@impactstud.io
 description: > # this means to ignore newlines until "baseurl:"
   A blog containing tangents that most of the world could are less about. This blog is for me.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/words" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jwizerd
 
